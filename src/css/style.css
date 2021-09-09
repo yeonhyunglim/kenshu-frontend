@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+    line-height: 1.15;
+}
+* {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+a:link, a:hover, a:active {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+/* header */
+.header {
+    background-color: #24436F;
+}
+.header-container {
+    width: 1126px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+}
