@@ -96,9 +96,9 @@ ul {
 .header-search__button {
   background-color: #3081C9;
   background-image: url('../images/search-icon.svg');
-  background-size: center;
+  background-size: 19px 19px;
   background-repeat: no-repeat;
-  background-position: 5px 5px;
+  background-position: center;
   border-radius: 0 4px 4px 0;
   height: 30px;
   width: 30px;
