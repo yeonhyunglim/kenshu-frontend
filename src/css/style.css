@@ -1,33 +1,40 @@
 @charset "UTF-8";
 html {
-    line-height: 1.15;
+  line-height: 1.15;
+  display: block; /* display: block; 필요한지 아닌지 모르겠음 */
 }
+
+html {
+  font-family: system-ui, 'Hiragino Kaku Gothic ProN', Meriyo, sans-serif;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
+
 body {
-    margin: 0;
+  margin: 0;
 }
+
 a:link, a:hover, a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-}
+
+/* ul 아직 추가 안함, 해야함 */
 
 /* header */
 .header {
-    background-color: #24436F;
+  background-color: #24436F;
+  min-width: 1126px;
 }
 .header-container {
-    width: 1126px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 12px 0;
-    display: flex;
-    align-items: center;
+  width: 1126px;
+  margin: 0 auto;
+  padding: 13px 0;
+  display: flex;
+  align-items: center;
 }
