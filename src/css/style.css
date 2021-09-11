@@ -51,7 +51,7 @@ ul {
 }
 .header-admin__list {
   display: flex;
-  padding: 9px 15px 8px; /* I followed figama but accoring to pr times page, padding: 6px 15px 8px*/
+  padding: 6px 15px 8px;
   align-items: center;
   background-color: #345584;
   border-radius: 4px
