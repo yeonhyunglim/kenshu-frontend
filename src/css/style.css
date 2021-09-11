@@ -107,3 +107,38 @@ ul {
 .header-search__button:hover {
   cursor: pointer;
 }
+.header-navigation__list {
+  width: 1125px;
+  display: flex;
+  margin: 0 auto;
+  padding: 1px 0 13px;
+}
+.header-navigation__item {
+  line-height: 13px;
+}
+.header-navigation__item:not(:last-child) {
+  position: relative;
+  padding-right: 20px;
+}
+.header-navigation__item:not(:last-child)::after {
+  content: '';
+  width: 1px;
+  height: 13px;
+  background-color: #BFC9D7;
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+.header-navigation__link {
+  font-size: 13px;
+  color: #BFC9D7;
+}
+.header-navigation__link--active {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.header-navigation__link:hover {
+  color: #FFFFFF;
+}
+/* end header */
