@@ -142,3 +142,30 @@ ul {
   color: #FFFFFF;
 }
 /* end header */
+
+/* category */
+.category-navigation {
+  border-bottom: 1px solid #E4E4E4; /* shorthand properties */
+  min-width: 1126px;
+}
+.category-navigation__list {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.category-navigation__item {
+  padding: 0 10px;
+}
+.category-navigation__link {
+  color: #294C7A;
+  font-size: 13px;
+}
+.category-navigation__link--active {
+  color: #294C7A;
+  font-size: 13px;
+  font-weight: bold;
+}
+.category-navigation__link:hover {
+  font-weight: bold;
+}
+/* end category */
