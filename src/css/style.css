@@ -61,7 +61,7 @@ ul {
   padding-right: 15px;
 }
 .header-admin__item:not(:last-child)::after {
-  content: ''; /* content: ''; replaces and element with <string> value */
+  content: ''; /* content: ''; replaces elements with <string> value */
   width: 1px;
   height: 13px;
   background-color: #BFC9D7;
@@ -81,7 +81,7 @@ ul {
   display: flex;
 }
 .header-search__form input[type=text] {
-  outline: none; /* I cannot understand this part... */
+  outline: none; /* I need to study this part... */
 }
 .header-search__input {
   background-color: #FFFFFF;
@@ -95,10 +95,11 @@ ul {
 }
 .header-search__button {
   background-color: #3081C9;
-  background-image: url('../images/search-icon.svg');
+  background-image: url('../images/search-icon.svg'); /* I need to study this part... */
   background-size: 19px 19px;
   background-repeat: no-repeat;
   background-position: center;
+  /* with shorthand properties these codes can be more concise like background: #3081C9 url('../images/search-icon.svg') no-repeat ceter; */
   border-radius: 0 4px 4px 0;
   height: 30px;
   width: 30px;
