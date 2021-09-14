@@ -1,0 +1,144 @@
+@charset "UTF-8";
+html {
+  line-height: 1.15;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a:link, a:hover, a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; /* Is this code necessary or not? */
+}
+
+/* header */
+.header {
+  background-color: #24436F;
+  min-width: 1126px;
+}
+.header-container {
+  width: 1126px;
+  margin: 0 auto;
+  padding: 13px 0;
+  display: flex;
+  align-items: center;
+}
+.header-description {
+  padding-left: 12px;
+}
+.header-description__h1 {
+  color: #BFC9D7;
+  letter-spacing: -0.05em;
+  font-weight: normal;
+  font-size: 12px;
+}
+.header-admin {
+  margin-left: auto;
+}
+.header-admin__list {
+  display: flex;
+  padding: 6px 15px 8px;
+  align-items: center;
+  background-color: #345584;
+  border-radius: 4px
+}
+.header-admin__item:not(:last-child) {
+  position: relative;
+  padding-right: 15px;
+}
+.header-admin__item:not(:last-child)::after {
+  content: ''; /* content: ''; replaces and element with <string> value */
+  width: 1px;
+  height: 13px;
+  background-color: #BFC9D7;
+  position: absolute;
+  top: 4px;
+  right: 7px;
+}
+.header-admin__link {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.header-search {
+  width: 288px;
+  margin-left: 10px;
+}
+.header-search__form {
+  display: flex;
+}
+.header-search__form input[type=text] {
+  outline: none; /* I cannot understand this part... */
+}
+.header-search__input {
+  background-color: #FFFFFF;
+  line-height: 30px;
+  height:30px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 4px 0 0 4px;
+  width: 258px;
+  border: none;
+}
+.header-search__button {
+  background-color: #3081C9;
+  background-image: url('../images/search-icon.svg');
+  background-size: 19px 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 4px 4px 0;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+.header-search__button:hover {
+  cursor: pointer;
+}
+.header-navigation__list {
+  width: 1125px;
+  display: flex;
+  margin: 0 auto;
+  padding: 1px 0 13px;
+}
+.header-navigation__item {
+  line-height: 13px;
+}
+.header-navigation__item:not(:last-child) {
+  position: relative;
+  padding-right: 20px;
+}
+.header-navigation__item:not(:last-child)::after {
+  content: '';
+  width: 1px;
+  height: 13px;
+  background-color: #BFC9D7;
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+.header-navigation__link {
+  font-size: 13px;
+  color: #BFC9D7;
+}
+.header-navigation__link--active {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.header-navigation__link:hover {
+  color: #FFFFFF;
+}
+/* end header */
