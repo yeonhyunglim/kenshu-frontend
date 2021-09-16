@@ -228,17 +228,13 @@
   display: inline-block;
   left: 0;
 }
-.ranking__company {
+.ranking__company-name-link {
   margin: 2px 0;
   color: #A2A2A2;
   font-size: 12px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-.ranking__company-link {
-  color: #A2A2A2;
-  font-size: 12px;
 }
 .ranking__pageview {
   color: #A2A2A2;
