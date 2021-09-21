@@ -329,19 +329,6 @@
   left: 0;
   top: -2px;
 }
-.list-article__company-name {
-  color: #A2A2A2;
-  font-size: 12px;
-  line-height: 100%;
-  width: 144px;
-  height: 13px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: flex;
-  align-items: : center;
-  margin-left: 12px;
-}
 .list-article__company-name-link {
   color: #A2A2A2;
   font-size: 12px;
