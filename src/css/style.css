@@ -269,10 +269,10 @@
   margin-bottom: 10px;
   color: #3B3B3B
 }
-.article {
+.articles-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%
+  width: 100%;
   margin-bottom: 50px;
 }
 .list-article {
@@ -282,19 +282,29 @@
   border-bottom: 1px solid #E4E4E4;
   position: relative;
 }
+.list-article:nth-child(2n) {
+  margin-left: auto;
+}
 .list-article__link {
   display: flex;
   height: 100%;
 }
 .list-article__content {
+ display: flex;
+  position: absolute;
+  bottom: 12px;
   width: 265px;
   height: 100%;
   display: grid;
   grid-template-rows: 1fr auto auto;
 }
 .list-article__title {
+  font-weight: bold;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.6px;
+  color: #3B3B3B;
+  margin-top: 0;
   margin-bottom: 3px;
   word-break: break-all;
 }
@@ -311,32 +321,43 @@
   content:'';
   position: absolute;
   background-image: url('../images/time-icon.svg');
-  background-size: 14px 14px;
+  background-size: 15px 15px;
   background-repeat: no-repeat;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   display: inline-block;
   left: 0;
+  top: -2px;
 }
 .list-article__company-name {
-  position: absolute;
-  display: block;
   color: #A2A2A2;
   font-size: 12px;
-  line-height: 1.5;
-  bottom: 12px;
-  max-width: 265px;
-}
-.list-article__company-name-link {
-  display: block;
+  line-height: 100%;
+  width: 144px;
+  height: 13px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 100%
+  display: flex;
+  align-items: : center;
+  margin-left: 12px;
+}
+.list-article__company-name-link {
+  color: #A2A2A2;
+  font-size: 12px;
+  line-height: 100%;
+  width: 144px;
+  height: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: : center;
+  margin-left: 12px;
 }
 .list-article__image-container {
   margin-left: auto;
-  width: 100%
+  width: 100%;
 }
 .list-article__image {
   position: relative;
@@ -348,5 +369,8 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+}
+.list-article__image-img {
+  width: 100%;
 }
 /* end main */
