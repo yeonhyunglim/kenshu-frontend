@@ -290,7 +290,7 @@
   height: 100%;
 }
 .list-article__content {
- display: flex;
+  display: flex;
   position: absolute;
   bottom: 12px;
   width: 265px;
@@ -302,7 +302,7 @@
   font-weight: bold;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.6px;
+  line-height: 160%;
   color: #3B3B3B;
   margin-top: 0;
   margin-bottom: 3px;
@@ -312,9 +312,9 @@
   position: relative;
   color: #A2A2A2;
   font-size: 12px;
-  height: 15px;
+  height: 12px;
+  line-height: 100%;
   display: inline-block;
-  line-height: 15px;
   padding-left: 18px;
 }
 .list-article__time::before {
