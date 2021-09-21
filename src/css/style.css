@@ -280,6 +280,7 @@
   padding: 15px 0 13px;
   border-bottom: 1px solid #E4E4E4;
   position: relative;
+  display: flex;
 }
 .list-article:nth-child(2n) {
   margin-left: auto;
