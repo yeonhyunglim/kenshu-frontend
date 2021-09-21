@@ -351,13 +351,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  display: flex;
-  align-items: : center;
+  display: block;
   margin-left: 12px;
 }
 .list-article__image-container {
   margin-left: auto;
-  width: 100%;
+  width: 100px; /* width: 100%　を　width: 100px　に　変更しました */
 }
 .list-article__image {
   position: relative;
