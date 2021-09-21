@@ -266,14 +266,13 @@
   font-weight: bold;
   font-style: normal;
   line-height: 36px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   color: #3B3B3B
 }
 .articles-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 50px;
 }
 .list-article {
   width: 380px;
@@ -290,13 +289,8 @@
   height: 100%;
 }
 .list-article__content {
-  display: flex;
-  position: absolute;
-  bottom: 12px;
   width: 265px;
   height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto auto;
 }
 .list-article__title {
   font-weight: bold;
@@ -307,6 +301,11 @@
   margin-top: 0;
   margin-bottom: 3px;
   word-break: break-all;
+}
+.list-article__time-company-wrapper {
+  display: flex;
+  position: absolute;
+  bottom: 12px;
 }
 .list-article__time {
   position: relative;
@@ -365,12 +364,35 @@
   min-width: 100px;
   height: 66px;
   background-color: #F2F2F2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   overflow: hidden;
 }
 .list-article__image-img {
   width: 100%;
+}
+.article-more {
+  margin-top: 30px;
+  width: 100%
+}
+.article-more__link {
+  width: 110px;
+  line-height: 38px;
+  background-color:  #3081C9;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.article-more-link:hover {
+  background-color: #59A7E6;
+}
+.sidebar {
+  width: 312px;
+  margin-left: auto;
 }
 /* end main */
