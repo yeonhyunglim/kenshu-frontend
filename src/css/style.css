@@ -169,13 +169,14 @@
 .ranking-container {
   position: relative;
   background-color: #FFFFFF;
-  height: 262px;
+  min-height: 218px;
 }
 .ranking__link {
   display: block;
+  height: 100%;
 }
 .ranking__image {
-  height: 116px;
+  height: 100px;
   overflow: hidden;
   position: relative;
 }
@@ -198,20 +199,20 @@
   width: 100%;
 }
 .ranking__content {
-  height: 128px;
   padding: 7px 10px;
 }
 .ranking__title {
   font-size: 13px;
   line-height: 1.6;
   color: #3B3B3B;
-  height: 60px;
   overflow: hidden;
+  line-break: normal;
+  height: 60px;
 }
 .ranking__info {
-  position: absolute;
-  bottom: 7px;
+  position: relative;
   left: 10px;
+  bottom: 7px;
   width: 161px;
 }
 .ranking__time {
