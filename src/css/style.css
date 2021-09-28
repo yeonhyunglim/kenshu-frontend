@@ -348,7 +348,7 @@
   margin-left: 12px;
 }
 .list-article__image-container {
-  margin-left: auto;
+  margin-left: 15px;
   width: 100px; /* width: 100%　を　width: 100px　に　変更しました */
 }
 .list-article__image {
