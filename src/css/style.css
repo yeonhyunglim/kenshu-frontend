@@ -309,7 +309,7 @@
   margin-bottom: 3px;
   word-break: break-all;
 }
-.list-article__time-company-wrapper {
+.list-article__info {
   display: flex;
   position: absolute;
   bottom: 12px;
