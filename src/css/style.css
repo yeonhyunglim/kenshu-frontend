@@ -208,6 +208,12 @@
   height: 60px;
   overflow: hidden;
 }
+.ranking__info {
+  position: absolute;
+  bottom: 7px;
+  left: 10px;
+  width: 161px;
+}
 .ranking__time {
   position: relative;
   color: #A2A2A2;
