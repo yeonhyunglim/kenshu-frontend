@@ -482,4 +482,11 @@
   color: #797979;
   line-height: 1;
 }
+.footer-copyright {
+  padding-bottom: 10px;
+}
+.footer-copyright__text {
+  font-size: 11px;
+  color: #797979;
+}
 /* end footer */
