@@ -136,8 +136,6 @@
   font-size: 13px;
 }
 .category-navigation__link--active {
-  color: #294C7A;
-  font-size: 13px;
   font-weight: bold;
 }
 .category-navigation__link:hover {
