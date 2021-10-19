@@ -122,7 +122,7 @@
 
 /* category */
 .category-navigation {
-  border-bottom: 1px solid #E4E4E4; /!-- shorthand properties --/
+  border-bottom: 1px solid #E4E4E4; /* shorthand properties */
   min-width: 1126px;
 }
 .category-navigation__list {
