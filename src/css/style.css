@@ -54,8 +54,8 @@
 .header-search__form {
   display: flex;
 }
-.header-search__form input[type=text] {
-  outline: none; /* I need to study this part... */
+.header-search__form input[type=text] { /* input is one of type selectors and [type=text] is one of attributes selectors */
+  outline: none;
 }
 .header-search__input {
   background-color: #FFFFFF;
