@@ -1,6 +1,6 @@
 /* category */
 .category-navigation {
-    border-bottom: 1px solid $bottom-line-color;
+    @include borderBottom;
     min-width: 1126px;
     &__list {
         @include flexHorizontalCenter;
