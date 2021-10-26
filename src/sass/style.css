@@ -45,6 +45,20 @@ ul {
   padding: 13px 0;
 }
 
+.header-logo__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo > img {
+  border-style: none;
+  vertical-align: bottom;
+}
+
 .header-description {
   padding-left: 12px;
 }

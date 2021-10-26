@@ -11,6 +11,14 @@
   display: flex;
   align-items: center;
 }
+.header-logo__link {
+  display: flex;
+  align-items: center;
+}
+.header-logo > img {
+  border-style: none;
+  vertical-align: bottom;
+}
 .header-description {
   padding-left: 12px;
 }

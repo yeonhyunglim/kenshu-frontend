@@ -10,6 +10,13 @@
     margin: 0 auto;
     padding: 13px 0;
 }
+.header-logo__link {
+    @include flex_vertical_center;
+}
+.header-logo > img {
+    border-style: none;
+    vertical-align: bottom;
+}
 .header-description {
     padding-left: 12px;
     &__title {
