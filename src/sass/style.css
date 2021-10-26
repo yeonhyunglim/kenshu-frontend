@@ -1,1 +1,186 @@
+html {
+  line-height: 1.15;
+}
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a:link, a:hover, a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* layout */
+/* header */
+.header {
+  background-color: #24436F;
+  min-width: 1126px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1126px;
+  margin: 0 auto;
+  padding: 13px 0;
+}
+
+.header-description {
+  padding-left: 12px;
+}
+
+.header-description__title {
+  color: #BFC9D7;
+  letter-spacing: -0.05em;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.header-admin {
+  margin-left: auto;
+}
+
+.header-admin__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px 15px 8px;
+  background-color: #345584;
+  border-radius: 4px;
+}
+
+.header-admin__item:not(:last-child) {
+  position: relative;
+  padding-right: 15px;
+}
+
+.header-admin__item:not(:last-child)::after {
+  content: '';
+  width: 1px;
+  height: 13px;
+  background-color: #BFC9D7;
+  position: absolute;
+  top: 4px;
+  right: 7px;
+}
+
+.header-admin__link {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.header-search {
+  width: 288px;
+  margin-left: 10px;
+}
+
+.header-search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-search__form input[type=text] {
+  outline: none;
+}
+
+.header-search__input {
+  background-color: #FFFFFF;
+  line-height: 30px;
+  height: 30px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 4px 0 0 4px;
+  width: 258px;
+  border: none;
+}
+
+.header-search__button {
+  background-color: #3081C9;
+  background-image: url("../images/search-icon.svg");
+  background-size: 19px 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 4px 4px 0;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+.header-search__button:hover {
+  cursor: pointer;
+}
+
+.header-navigation {
+  min-width: 1126px;
+  margin-top: -1px;
+}
+
+.header-navigation__list {
+  width: 1126px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 1px 0 13px;
+}
+
+.header-navigation__item {
+  line-height: 13px;
+}
+
+.header-navigation__item:not(:last-child) {
+  position: relative;
+  padding-right: 20px;
+}
+
+.header-navigation__item:not(:last-child)::after {
+  content: '';
+  width: 1px;
+  height: 13px;
+  background-color: #BFC9D7;
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+
+.header-navigation__link {
+  font-size: 13px;
+  color: #BFC9D7;
+}
+
+.header-navigation__link--active {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.header-navigation__link:hover {
+  color: #FFFFFF;
+}
+
+/* end header */
+/* end layout */
+/*# sourceMappingURL=style.css.map */

@@ -4,3 +4,118 @@
     background-color: #24436F;
     min-width: 1126px;
 }
+.header-container {
+    @include flex_vertical_center;
+    width: 1126px;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+.header-description {
+    padding-left: 12px;
+    &__title {
+        color: $header_text;
+        letter-spacing: -0.05em;
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
+.header-admin {
+    margin-left: auto;
+    &__list {
+        @include flex_vertical_center;
+        padding: 6px 15px 8px;
+        background-color: #345584;
+        border-radius: 4px;
+    }
+    &__item {
+        &:not(:last-child) {
+            position: relative;
+            padding-right: 15px;
+            &::after {
+                content: '';
+                width: 1px;
+                height: 13px;
+                background-color: $header_text;
+                position: absolute;
+                top: 4px;
+                right: 7px;
+            }
+        }
+    }
+    &__link {
+        font-size: 13px;
+        color: $color_white;
+    }
+}
+.header-search {
+    width: 288px;
+    margin-left: 10px;
+    &__form {
+        display: flex;
+        input[type=text] {
+            outline: none;
+        }
+    }
+    &__input {
+        background-color: $color_white;
+        line-height: 30px;
+        height: 30px;
+        font-size: 13px;
+        padding-left: 15px;
+        border-radius: 4px 0 0 4px;
+        width: 258px;
+        border: none;
+    }
+    &__button {
+       background-color: $button_color;
+       background-image: url('../images/search-icon.svg');
+       background-size: 19px 19px;
+       background-repeat: no-repeat;
+       background-position: center;
+       border-radius: 0 4px 4px 0;
+       height: 30px;
+       width: 30px;
+       border: none;
+       &:hover {
+           cursor: pointer;
+       } 
+    }
+}
+.header-navigation {
+    min-width: 1126px;
+    margin-top: -1px;
+    &__list {
+        width: 1126px;
+        display: flex;
+        margin: 0 auto;
+        padding: 1px 0 13px;
+    }
+    &__item {
+        line-height: 13px;
+        &:not(:last-child) {
+            position: relative;
+            padding-right: 20px;
+            &::after {
+                content: '';
+                width: 1px;
+                height: 13px;
+                background-color: $header_text;
+                position: absolute;
+                top: 0;
+                right: 9px;
+            }
+        }
+    }
+    &__link {
+        font-size: 13px;
+        color: $header_text;
+        &--active {
+            font-weight: bold;
+            color: $color_white;
+        }
+        &:hover {
+            color: $color_white;
+        }
+    }
+}
+/* end header */
