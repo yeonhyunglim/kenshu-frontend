@@ -74,15 +74,7 @@
         line-height: 15px;
         padding-left: 17px;
         &::before {
-            content: '';
-            position: absolute;
-            background-image: url('../images/time-icon.svg');
-            background-size: 14px;
-            background-repeat: no-repeat;
-            width: 14px;
-            height: 14px;
-            display: inline-block;
-            left: 0;
+           @include timeIcon;
         }
     }
     &__company-name {
