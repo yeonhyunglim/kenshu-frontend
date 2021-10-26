@@ -82,6 +82,10 @@
 .header-search__button:hover {
   cursor: pointer;
 }
+.header-navigation {
+  min-width: 1126px;
+  margin-top: -1px;
+}
 .header-navigation__list {
   width: 1126px;
   display: flex;
