@@ -1,16 +1,16 @@
 /* category */
 .category-navigation {
-    border-bottom: 1px solid $bottom_line_color;
+    border-bottom: 1px solid $bottom-line-color;
     min-width: 1126px;
     &__list {
-        @include flex_horizontal_center;
+        @include flexHorizontalCenter;
         padding: 10px 0;
     }
     &__item {
         padding: 0 10px;
     }
     &__link {
-        color: $prtimes_color;
+        color: $prtimes-color;
         font-size: 13px;
         &--active {
             font-weight: bold;

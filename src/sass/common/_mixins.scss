@@ -1,0 +1,12 @@
+@mixin flexHorizontalCenter {
+    display: flex;
+    justify-content: center;
+}
+@mixin flexVerticalCenter {
+    display: flex;
+    align-items: center;
+}
+@mixin widthMargin {
+    width: 1126px;
+    margin: 0 auto;
+}
