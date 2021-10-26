@@ -28,7 +28,7 @@
   padding: 6px 15px 8px;
   align-items: center;
   background-color: #345584;
-  border-radius: 4px
+  border-radius: 4px;
 }
 .header-admin__item:not(:last-child) {
   position: relative;
