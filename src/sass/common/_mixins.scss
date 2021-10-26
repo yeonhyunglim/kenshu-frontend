@@ -10,3 +10,17 @@
     width: 1126px;
     margin: 0 auto;
 }
+@mixin borderBottom {
+    border-bottom: 1px solid #E4E4E4;
+}
+@mixin timeIcon {
+    content: '';
+    position: absolute;
+    background-image: url('../images/time-icon.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    left: 0;
+}
