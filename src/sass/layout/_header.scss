@@ -9,10 +9,10 @@
     @include widthMargin;
     padding: 13px 0;
 }
-.header-logo__link {
+.header__link {
     @include flexVerticalCenter;
 }
-.header-logo > img {
+.header__logo > img {
     border-style: none;
     vertical-align: bottom;
 }
