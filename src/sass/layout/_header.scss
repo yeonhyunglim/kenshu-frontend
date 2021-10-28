@@ -111,12 +111,19 @@
             }
         }
     }
-    &__link {
+    %link {
         font-size: 13px;
         color: $header-text-color;
+    }
+    %brighterbolder {
+        font-weight: bold;
+        color: $white-color;
+    }
+    &__link {
+        @extend %link;
         &--active {
-            font-weight: bold;
-            color: $white-color;
+            @extend %link;
+            @extend %brighterbolder;
         }
         &:hover {
             color: $white-color;
