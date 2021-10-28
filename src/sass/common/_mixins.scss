@@ -10,8 +10,8 @@
     width: 1126px;
     margin: 0 auto;
 }
-@mixin borderBottom {
-    border-bottom: 1px solid #E4E4E4;
+@mixin borderBottom($color: #E4E4E4) {
+    border-bottom: 1px solid $color;
 }
 @mixin timeIcon {
     content: '';
