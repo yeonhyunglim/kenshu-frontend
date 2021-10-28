@@ -9,10 +9,14 @@
     &__item {
         padding: 0 10px;
     }
-    &__link {
+    %link {
         color: $prtimes-color;
         font-size: 13px;
+    }
+    &__link {
+        @extend %link;
         &--active {
+            @extend %link;
             font-weight: bold;
         }
         &:hover {
