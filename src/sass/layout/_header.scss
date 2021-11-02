@@ -87,10 +87,6 @@
        } 
     }
 }
-%header-navigation-link {
-    font-size: 13px;
-    color: $header-text-color;
-}
 .header-navigation {
     min-width: 1126px;
     margin-top: -1px;
@@ -115,12 +111,16 @@
             }
         }
     }
+    %header-navigation-link {
+        font-size: 13px;
+        color: $header-text-color;
+    }
     &__link {
         @extend %header-navigation-link;
         &--active {
             @extend %header-navigation-link;
             font-weight: bold;
-            color: $white-color;
+            color: $white-color !important;
         }
         &:hover {
             color: $white-color;

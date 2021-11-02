@@ -148,11 +148,6 @@ ul {
   cursor: pointer;
 }
 
-.header-navigation__link, .header-navigation__link--active {
-  font-size: 13px;
-  color: #BFC9D7;
-}
-
 .header-navigation {
   min-width: 1126px;
   margin-top: -1px;
@@ -186,9 +181,14 @@ ul {
   right: 9px;
 }
 
+.header-navigation .header-navigation__link, .header-navigation .header-navigation__link--active {
+  font-size: 13px;
+  color: #BFC9D7;
+}
+
 .header-navigation__link--active {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .header-navigation__link:hover {
