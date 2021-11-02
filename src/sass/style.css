@@ -181,12 +181,12 @@ ul {
   right: 9px;
 }
 
-.header-navigation .header-navigation__link, .header-navigation .header-navigation__link--active, .header-navigation .category-navigation__link, .header-navigation .category-navigation__link--active {
+.header-navigation .header-navigation__link, .header-navigation .header-navigation__link--active {
   font-size: 13px;
   color: #BFC9D7;
 }
 
-.header-navigation .header-navigation__link--active {
+.header-navigation__link--active {
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -216,7 +216,7 @@ ul {
   padding: 0 10px;
 }
 
-.category-navigation .header-navigation__link, .category-navigation .header-navigation__link--active, .category-navigation .category-navigation__link, .category-navigation .category-navigation__link--active {
+.category-navigation .category-navigation__link, .category-navigation .category-navigation__link--active {
   color: #294C7A;
   font-size: 13px;
 }

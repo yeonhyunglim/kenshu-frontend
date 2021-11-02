@@ -9,14 +9,14 @@
     &__item {
         padding: 0 10px;
     }
-    %link {
+    %category-navigation-link {
         color: $prtimes-color;
         font-size: 13px;
     }
     &__link {
-        @extend %link;
+        @extend %category-navigation-link;
         &--active {
-            @extend %link;
+            @extend %category-navigation-link;
             font-weight: bold;
         }
         &:hover {
