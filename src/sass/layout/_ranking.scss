@@ -1,0 +1,102 @@
+/* ranking */
+.ranking {
+    padding: 22px 0;
+    background-color: #F2F2F2;
+    min-width: 1126px;
+    &-wrapper {
+        @include widthMargin
+    }
+    &__list {
+        @include flexHorizontalCenter;
+        padding-left: 0;
+    }
+    &__item {
+        width: 181px;
+        &:not(:last-child) {
+            margin-right: 7px;
+        }
+    }
+    &-container {
+        position: relative;
+        background-color: $white-color;
+        min-height: 218px;
+    }
+    &__link {
+        display: block;
+        height: 100%;
+    }
+    &__image {
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        &-img {
+            width: 100%;
+        }
+    }
+    &__number {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 24px;
+        background-color: $prtimes-color;
+        color: $white-color;
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+        line-height: 25px;
+        font-size: 17px;
+        z-index: 1;
+    }
+    &__content {
+        padding: 7px 10px;
+    }
+    &__title {
+        font-size: 13px;
+        line-height: 1.6;
+        color: $text-color;
+        overflow: hidden;
+        line-break: normal;
+        height: 60px;
+    }
+    &__info {
+        position: relative;
+        left: 10px;
+        bottom: 7px;
+        width: 161px;
+    }
+    &__time {
+        position: relative;
+        color: $sub-text-color;
+        font-size: 12px;
+        height: 14px;
+        display: block;
+        line-height: 15px;
+        padding-left: 17px;
+        &::before {
+           @include timeIcon;
+        }
+    }
+    &__company-name {
+        margin: 2px 0;
+        color: $sub-text-color;
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        &-link {
+            margin: 2px 0;
+            color: $sub-text-color;
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+    &__pageview {
+        color: $sub-text-color;
+        font-size: 12px;
+        margin: 2px 0;
+    }
+}
+/* end ranking */

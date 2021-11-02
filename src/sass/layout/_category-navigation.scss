@@ -1,0 +1,27 @@
+/* category-navigation */
+.category-navigation {
+    @include borderBottom;
+    min-width: 1126px;
+    &__list {
+        @include flexHorizontalCenter;
+        padding: 10px 0;
+    }
+    &__item {
+        padding: 0 10px;
+    }
+    %category-navigation-link {
+        color: $prtimes-color;
+        font-size: 13px;
+    }
+    &__link {
+        @extend %category-navigation-link;
+        &--active {
+            @extend %category-navigation-link;
+            font-weight: bold;
+        }
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+/* end category-navigation */

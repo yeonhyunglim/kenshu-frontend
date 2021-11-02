@@ -1,0 +1,10 @@
+@import "common/reset";
+@import "common/variables";
+@import "common/mixins";
+/* layout */
+@import 'layout/header';
+@import 'layout/category-navigation';
+@import 'layout/ranking';
+@import 'layout/main';
+@import 'layout/footer';
+/* end layout */
